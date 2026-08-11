@@ -28,9 +28,9 @@ sources:
             freshness:
               warn_after:
                 count: 24
-                period: hour
+                period: day
               error_after:
                 count: 48
-                period: hour
+                period: day
             loaded_at_field: _etl_loaded_at
         
